@@ -1,0 +1,11 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: community_spit
+  redis:
+    127.0.0.1
+  data:
+    mongodb:
+      host: 127.0.0.1
+      database: spit
