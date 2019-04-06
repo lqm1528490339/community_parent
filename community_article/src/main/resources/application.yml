@@ -12,8 +12,9 @@ spring:
     database: MySQL
     show‐sql: true
     generate‐ddl: true
+
   redis:
-    127.0.0.1
+    119.23.205.248
   data:
     mongodb:
       host: 127.0.0.1

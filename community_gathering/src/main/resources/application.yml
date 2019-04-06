@@ -13,4 +13,4 @@ spring:
     show‐sql: true
     generate‐ddl: true
   redis:
-    127.0.0.1
+    119.23.205.248
