@@ -1,0 +1,16 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: community_gathering
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://119.23.205.248:3306/community_gathering?useSSL=false
+    username: root
+    password: root
+  jpa:
+    database: MySQL
+    show‐sql: true
+    generate‐ddl: true
+  redis:
+    119.23.205.248

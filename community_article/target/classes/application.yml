@@ -1,0 +1,21 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: community_article
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://119.23.205.248:3306/community_article?useSSL=false
+    username: root
+    password: root
+  jpa:
+    database: MySQL
+    show‐sql: true
+    generate‐ddl: true
+
+  redis:
+    119.23.205.248
+  data:
+    mongodb:
+      host: 127.0.0.1
+      database: artcledb

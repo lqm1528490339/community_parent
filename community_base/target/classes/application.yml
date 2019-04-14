@@ -1,0 +1,14 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: community_base
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://119.23.205.248:3306/community_base?useSSL=false
+    username: root
+    password: root
+  jpa:
+    database: MySQL
+    show‐sql: true
+    generate‐ddl: true
