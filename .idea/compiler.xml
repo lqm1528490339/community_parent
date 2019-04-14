@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="community_article" />
-        <module name="community_base" />
         <module name="community_common" />
         <module name="community_gathering" />
+        <module name="community_article" />
+        <module name="community_search" />
         <module name="community_qa" />
         <module name="community_recruit" />
-        <module name="community_search" />
+        <module name="community_base" />
         <module name="community_spit" />
       </profile>
     </annotationProcessing>
@@ -23,7 +23,6 @@
       <module name="community_base" options="-parameters" />
       <module name="community_common" options="-parameters" />
       <module name="community_gathering" options="-parameters" />
-      <module name="community_parent" options="-parameters" />
       <module name="community_qa" options="-parameters" />
       <module name="community_recruit" options="-parameters" />
       <module name="community_search" options="-parameters" />
